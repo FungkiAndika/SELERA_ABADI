@@ -1,0 +1,37 @@
+html, * {
+    margin: 0;
+}
+.navbar {
+    height: 7vh;
+    width: 100hh;
+    background-color: rgb(34, 35, 35);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-content: center;
+    align-items: center;
+}
+.icon {
+    width: 5vh;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.title {
+    color: white;
+    font-family: monospace;
+    font-size: 150%;
+}
+.content {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    background-image: url(/src/IMG_20250302_165548.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
